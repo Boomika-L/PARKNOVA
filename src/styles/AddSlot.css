@@ -1,0 +1,46 @@
+.add-slot {
+  height: 100vh;
+  background: #0f172a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-card {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 12px;
+  width: 300px;
+  color: white;
+  text-align: center;
+}
+
+.form-card h2 {
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+
+.form-card input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: none;
+}
+
+.form-card button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #38bdf8;
+  color: #0f172a;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-card button:hover {
+  background: #0ea5e9;
+}

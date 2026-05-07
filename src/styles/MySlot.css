@@ -1,0 +1,71 @@
+.myslots {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: white;
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.myslots h2 {
+  margin-bottom: 25px;
+  color: #38bdf8;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.slot-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.slot-card {
+  background: #1e293b;
+  padding: 22px;
+  border-radius: 18px;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.slot-card:hover {
+  transform: translateY(-6px) scale(1.01);
+  background: #334155;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+}
+
+.slot-card p {
+  margin: 10px 0;
+  font-size: 15px;
+  color: #cbd5e1;
+}
+
+.slot-card span {
+  color: #38bdf8;
+  font-weight: 600;
+}
+
+.slot-card button {
+  margin-top: 14px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  background: #38bdf8;
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.slot-card button:hover {
+  background: #0ea5e9;
+  transform: scale(1.03);
+}
+
+.no-slots {
+  opacity: 0.7;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 16px;
+}
